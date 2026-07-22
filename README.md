@@ -47,7 +47,7 @@ ecommerce-sales-sql-analysis/
 │   ├── 03_Insert_Data.sql
  04_Basic_Queries.sql
 │   ├── 05_Intermediate_Queries.sql
-│   ├── 06_Advanced_Queries.sql
+│   
 │
 ├── Dashboard/
 │   ├── Ecommerce_Sales_Dashboard.pbix
