@@ -1,1 +1,36 @@
+# 🗂️ Entity Relationship (ER) Diagram
+
+## Overview
+
+The Entity Relationship (ER) Diagram illustrates the database structure for the E-commerce Sales Analysis project. It shows how different tables are connected using primary keys and foreign keys.
+
+## Tables Included
+
+- Customers
+- Orders
+- Products
+- Categories
+- Payments
+## Table Relationships
+
+- **Customers** → **Orders**
+  - `customer_id` links customers to their orders.
+
+- **Products** → **Orders**
+  - `product_id` links each order to a product.
+
+- **Categories** → **Products**
+  - `category_id` links products to their categories.
+
+- **Payments** → **Orders**
+  - `payment_id` links payment information to each order.
+## Primary Keys
+
+| Table | Primary Key |
+|--------|-------------|
+| Customers | customer_id |
+| Orders | order_id |
+| Products | product_id |
+| Categories | category_id |
+| Payments | payment_id |
 
